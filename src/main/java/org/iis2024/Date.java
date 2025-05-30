@@ -69,7 +69,7 @@ public class Date {
    * This method utilizes {@link SimpleDateFormat} to parse the date, configured to be
    * non-lenient to ensure strict validation against the provided day, month, and year.
    *
-   * @return true if the date is valid, false otherwise.
+   * @return true if the date is valid, false otherwise;
    */
   public boolean validate() {
     SimpleDateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy");
